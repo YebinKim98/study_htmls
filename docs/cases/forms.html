@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../index.html">
+    <div>
+        First name <input type="firstname" name="myfirstname">
+    </div>
+    <div>
+        Last name <input type="lastname" name="mylastname">
+    </div>
+    <div>
+        Username <input type="username" name="myusername">
+    </div>
+    <div>
+        Email (optional) <input type="email" name="myemail" value="you@exampie.com"> 
+    </div>
+    <div>
+        Address <input type="address" name="myaddress" value="1234 Main St"> 
+    </div>
+    <div>
+        Address 2 <input type="address2" name="myaddress2"  value="Apartmant or suite"> 
+    </div>
+    <div>
+        <label for="Country">Country:</label>
+
+        <select name="country" id="country">
+            <option value="Choose" selected >Choose</option>
+        <option value="Korea" >Korea</option>
+        <option value="China" >China</option>
+        <option value="USA">USA</option>
+        <option value="France">France</option>
+        <option value="Germany">Germany</option>
+        </select>
+     </div>
+     <div>
+        <label for="State">State:</label>
+
+        <select name="State" id="State">
+        <option value="Gyeonggi-do" selected >Gyeonggi-do</option>
+        <option value="Gangwon-do" >Gangwon-do</option>
+        <option value="Gangwon-do" >Chungcheong-do</option>
+        </select>
+     </div>
+     <div>
+         Zip <input type="zip" name="myzip" value="12345"> 
+     </div>
+     <hr> 
+     <div>
+        Shopping Address: <input type="checkbox" name="shoppingaddress">
+     </div>
+     <div>
+        Save Information: <input type="checkbox" name="saveinformation">
+     </div>
+     <hr> 
+     <div>
+        <H3>Paymant</H3>
+        <input type="radio" name="Paymant" value="Credit Card" id=""checked> Credit Card
+        <p></p>    
+        <input type="radio" name="Paymant" value="Debit card" id=""> Debit card
+        <p></p>
+        <input type="radio" name="Paymant" value="Paypal" id=""> Paypal
+    </div>
+    <div>
+        Name on card <input type="Nameoncard" name="myNameoncard"> 
+    </div>
+    <div>
+        Credit card number <input type="cardnumber" name="mycardnumber"> 
+    </div>
+        <div>
+            Expiration : <input type="date" name="Expiration" value="2023-05-16">
+        </div>
+    <div>
+        CVV <input type="cvv" name="mycvv"> 
+    </div>
+    <hr> 
+    <div>
+        <button type="submit"> Continue to checkout</button>
+    </div>
+    </form>     
+</body>
+</html>

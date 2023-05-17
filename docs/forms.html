@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Forms</title>
+</head>
+<body>
+    <div>Forms</div>
+    <div>
+        <form action="index.html">
+            <div>
+                <input type="radio" name="fruits" value="apple" id=""> 사과
+                <input type="radio" name="fruits" value="bannana" id=""> 바나나
+                <input type="radio" name="fruits" checked value="strawberry" id=""> 딸기
+            </div>
+            <div>
+                <label for="cars">Choose a car:</label>
+
+                <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab" selected>Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+                </select>
+             </div>
+             <div>
+                <label for="cars">Choose a car(multipie):</label>
+
+                <select name="cars" id="cars" multipie>
+                 <option value="volvo">Volvo</option>
+                 <option value="saab" selected>Saab</option>
+                 <option value="mercedes">Mercedes</option>
+                 <option value="audi">Audi</option>
+                </select>
+             </div>
+            <div>
+                <button type="submit">Click Me!</button>
+            </div>
+            <hr>
+            <div> contents : </div>
+                <textarea name="mycontevts" id="" cols="30"  rows="10">입력하는 곳입니다.</textarea>
+            </div>
+            <div>
+                <input type="submit">
+                <button type="submit">Click Me!</button>
+                <button type="reset">원래대로 돌리기</button>
+            </div>
+            <hr>
+            <div>
+                Check Fist: <input type="checkbox" name="mycheckfist"checked>
+                Check second: <input type="checkbox" name="mychecksecond">
+                <label for="idchekthird"> Label Check third : </label>
+                <input type = "checkbox" name="myCheckthird" id="idchekthird">
+            </div>
+            <div>
+                Hidden First : <input type="hidden" name="myhiddenfirst" value="2">
+            </div>
+            <input type="submit">
+        </form>
+    </div>
+    <hr> 
+    <div>
+        <form action="index.html">
+            <div>
+                E-mail : <input type="email" name="myemail" value="dpqls9898@gmail.com">
+            </div>
+            <div>
+                password : <input type="password" name="mypassword">
+            </div>
+            <div>
+                Date : <input type="date" name="mydate" value="2023-05-16">
+            </div>
+            <div>
+                FILE: <input type="file" name="myfile">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </div> 
+    <form action="links.html">
+        <div>
+             <form action="main.html">
+    <hr>
+            검색 : <input type="text" name="search">
+            <input type="submit">
+        </form>
+    </div>
+    <hr>  
+    <div>
+        <form action="index.html">
+        </form>
+            <div>
+                First Name : <input type="text" name="first">
+            </div>
+            <div>
+                Second : <input type="text" name="second">
+            </div>
+            <input type="submit">
+        </form>
+    <hr>  
+        <div>
+            <input type="submit">
+        </div>
+    </div>
+</body>
+</html>
